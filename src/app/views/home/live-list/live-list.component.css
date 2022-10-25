@@ -1,0 +1,64 @@
+  .container{
+    padding-top: 15px;
+  }
+
+  .ng-content{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .grid-item {
+    background-color: #EEE; 
+    border: 1px solid #CCC; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    padding-top: 12px; 
+    padding-left: 0%; 
+    padding-right: 0%; 
+    padding-bottom: 0%;
+    border: 0px;
+    margin: 5px;
+  }
+
+.card-title{
+  text-align: left;
+  padding-left:15px; 
+  padding-top: 0px; 
+  padding-right: 10px; 
+  margin-bottom: 0px; 
+
+
+}
+
+.icon{
+  padding:0px;
+  vertical-align: text-top;
+  color:#D99;
+  height: 10px;
+}
+
+.card-date{
+  font-size: 0.8rem;
+  color: black;
+  padding-bottom: 8px;
+}
+
+.card-name{
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: black;
+}
+
+.card-channel{
+  font-size:0.8rem;
+  color: black;
+}
+
+.card-content{
+  padding-bottom: 5px;
+}
+.card-content iframe{
+  padding:0px;
+  width: 384px;
+  height: 216px;
+}

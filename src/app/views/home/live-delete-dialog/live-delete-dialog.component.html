@@ -1,0 +1,13 @@
+
+  <div class="content-container">
+    <!-- <mat-icon id="close-icon" (click)="closeDialog()">close</mat-icon> -->
+    <span class="content-span full-width">{{data.message}}</span>
+
+<!--   <button id="no-button" [mat-dialog-close]="false">CANCELAR</button>
+  <button id="yes-button" (click)="deleteLive(data.id)" [mat-dialog-close]="true">EXCLUIR</button>
+</div> -->
+
+
+  <button mat-button id="no-button" color="basic" (click)="closeDialog()">Cancelar</button>
+  <button mat-raised-button id="yes-button" color="warn" (click)="deleteLive(data.id)">Excluir</button>
+</div>
